@@ -1,8 +1,20 @@
 {
   "name": "barry-portfolio-plugin",
   "version": "0.0.0",
-  "dependencies": {},
   "devDependencies": {
     "gulp": "~3.8.10"
-  }
+  },
+  "homepage": "https://github.com/oh-/barry-plugin",
+  "authors": [
+    "Samuel Overington <chaos@samueloverington.com>"
+  ],
+  "description": "odds and ends",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }

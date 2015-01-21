@@ -241,5 +241,8 @@ class BarryPortfolioPlugin{
 	public function filter_method_name() {
 		// TODO: Define your filter hook callback here
 	}
+	
+	
+	
 
 }
