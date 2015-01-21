@@ -246,3 +246,24 @@ class BarryPortfolioPlugin{
 	
 
 }
+
+// this is not implamented anywhere yet - as of 21 january 2015
+// checks for multiarray to defined depth level recursively
+// original $level must be 2 or more, else will instantly return true
+function isDeepMultiArray($multiarray, $level = 2) {  // default is simple multiarray
+    if (is_array($multiarray)) {  // confirms array
+        if ($level == 1) {  // $level reaches 1 after specified # of recursions 
+            return true;  // returns true to recursive function conditional
+        }  // end conditional
+        foreach ($multiarray as $array) {  // goes one level deeper into array
+            if (isDeepMultiArray($array, $level - 1)) {  // check subarray
+                $message = "I'm a multiarray";  // optional message
+                return $message;  // best if $message = true so function returns boolean
+            }  // end recursive function
+        }  // end loop
+    } else {  // not an array at specified level
+    return false;  // is also used recursively so can't change to message
+    }
+}
+
+if (isDeepMultiArray(array(array()), 2)); // beware this returns true eventhough arrays are empty
