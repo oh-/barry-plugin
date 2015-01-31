@@ -35,6 +35,12 @@ register_activation_hook(__FILE__, array("BarryPortfolioPlugin", "activate"));
 register_deactivation_hook(__FILE__, array("BarryPortfolioPlugin", "deactivate"));
 
 // try out from here
+/**
+ * Set up Work attachements
+ */
+require_once(plugin_dir_path(__FILE__) . "work_attachments.php");
+
+
 add_action("manage_posts_custom_column",  "portfolio_custom_columns");
 add_filter("manage_edit-portfolio_columns", "portfolio_edit_columns");
  
