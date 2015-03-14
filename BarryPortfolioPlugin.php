@@ -3,7 +3,7 @@
  * Barry Portfolio Plugin
  *
  * @package   barry-portfolio-plugin
- * @author    Samuuel Overington <so@madeso.uk>
+ * @author    Samuel Overington <so@madeso.uk>
  * @license   GPL-2.0+
  * @link      madeso.uk
  * @copyright 1-10-2015 madeso
@@ -13,17 +13,17 @@
  * Barry Portfolio Plugin class.
  *
  * @package BarryPortfolioPlugin
- * @author  Samuuel Overington <so@madeso.uk>
+ * @author  Samuel Overington <so@madeso.uk>
  */
 class BarryPortfolioPlugin{
 	/**
 	 * Plugin version, used for cache-busting of style and script file references.
 	 *
-	 * @since   1.0.0
+	 * @since   1.0.1
 	 *
 	 * @var     string
 	 */
-	protected $version = "1.0.0";
+	protected $version = "1.0.1";
 
 	/**
 	 * Unique identifier for your plugin.
@@ -31,7 +31,7 @@ class BarryPortfolioPlugin{
 	 * Use this value (not the variable name) as the text domain when internationalizing strings of text. It should
 	 * match the Text Domain file header in the main plugin file.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 *
 	 * @var      string
 	 */
@@ -40,7 +40,7 @@ class BarryPortfolioPlugin{
 	/**
 	 * Instance of this class.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 *
 	 * @var      object
 	 */
@@ -49,7 +49,7 @@ class BarryPortfolioPlugin{
 	/**
 	 * Slug of the plugin screen.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 *
 	 * @var      string
 	 */
@@ -58,7 +58,7 @@ class BarryPortfolioPlugin{
 	/**
 	 * Initialize the plugin by setting localization, filters, and administration functions.
 	 *
-	 * @since     1.0.0
+	 * @since     1.0.1
 	 */
 	private function __construct() {
 

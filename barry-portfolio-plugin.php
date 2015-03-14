@@ -14,8 +14,8 @@
  * Plugin Name: Barry Portfolio Plugin
  * Plugin URI:  madeso.uk
  * Description: odds and ends for portfolio site
- * Version:     1.0.0
- * Author:      Samuuel Overington
+ * Version:     1.0.1
+ * Author:      Samuel Overington
  * Author URI:  madeso.uk
  * Text Domain: barry-portfolio-plugin-locale
  * License:     GPL-2.0+
